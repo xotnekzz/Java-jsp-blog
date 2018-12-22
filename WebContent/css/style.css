@@ -1,0 +1,358 @@
+/* 	모든 태그에 적용 */
+ *{ font-family: Malgun Gothic;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px; 
+    color: #555555; 
+   }  
+ 
+ .container {
+  width: 85%;
+  margin: 0px auto;  
+ } 
+ 
+  .content { 
+    float: left;
+    width: 80%; 
+    margin-left: 5%;
+  }
+  
+  .content_list { 
+   margin: 0px auto;
+   float: left;
+   width:85%; 
+  }
+   
+  .content_top {
+    margin: 0px auto;
+    width: 95%;  
+    margin-top: 20px;  
+    margin-bottom: 50px;
+  }
+  
+  .content_home {
+    margin: 0px auto;
+    width: 80%;  
+  }
+  
+ .left_menu {
+  text-align: center;
+  width:15%;
+  float: left;
+ }
+ 
+ .left_menu1 {
+  text-align: center;
+  width:29.3%;
+  float: left;
+ }
+ 
+  .center_menu {
+  text-align: center;
+  width:35.3%;
+  float: left;
+ }
+  
+  .right_menu {
+  text-align: center;
+  width:35.3%;
+  float: left;
+  height: 400px;
+ }
+ 
+ .left_menu_title {
+  margin : 10px auto;
+  font-size : 50px;
+ }
+ 
+ .menu_line {
+ 	width: 100%;
+ 	border-bottom: dotted 1px #777777;
+ 	margin: 20px 0px;
+ 	clear: both;
+ }
+ 
+ .bottom_menu {
+   margin: 20px auto;
+   text-align: center;
+   clear: both; /* float 속성 제거 */    
+ }
+ 
+ .label_basic {
+ 	width: 200px;
+ 	background-color: #eeeeee;
+ 	display: inline-block;
+ 	text-align: right;
+ 	
+ }
+ 
+ .li_none {
+  list-style: none; /* 블렛 기호 생략 */
+  margin: 10px 10px; /* 위아래 좌우 */
+ }
+ 
+ .li_center {
+  text-align: center;
+  list-style: none;
+  margin: 20px auto;
+ }
+ 
+ .li_right {
+  text-align: right;
+  list-style: none;
+  margin: 0px auto;
+ }
+ 
+ .li_underline {
+  list-style: none;
+  width: 99%;
+  margin-left: 10px;
+  border: 1px solid #eeeeee;
+ }
+ 
+ .legend_basic {
+  margin: 0px 30px;
+  border: solid 1px #AAAAAA;
+  border: none;
+  padding: 2px;
+ }
+ 
+ .fiel`set_basic {
+  margin: 30px auto;
+  margin-bottom: 50px;
+  border-left: none;
+  border-right: none;
+  width: 90%;
+ }
+ 
+ .fieldset_no_line {
+  border: none;	
+  margin-top: 50px;
+ }
+ 
+ .register {
+  text-align: center;
+  margin-bottom: 10px;
+ }
+ 
+ .title_box {
+  width: 20%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 3px;
+  border: none;
+  font-size: 30px;
+ }
+ 
+ .table_basic {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border: none;
+  border-collapse: collapse; /* 셀테두리 경게 제거 */
+  border-spacing: 0px;
+ }
+ 
+ .th_basic {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #AAAAAA;
+    font-size: 18px;
+ }
+ 
+ .td_basic {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+ }
+ 
+ th, td {
+ 	border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #AAAAAA;
+ }
+ 
+  A:link{  /* 방문전 상태 */
+    text-decoration: none; /* 밑줄 삭제 */
+    color: #555555;
+  }
+ 
+  A:visited{  /* 방문후 상태 */
+    text-decoration: none; /* 밑줄 삭제 */
+    color: #555555;
+  }
+ 
+  A:hover{  /* A 태그에 마우스가 올라간 상태 */
+    background-color: #CCCCCC;
+    color: #ffffff;
+  }
+ 
+  A:active{  /* A 태그를 클릭한 상태 */
+    color: #ffffff;
+  }
+  
+  
+  .message {
+  	width: 70%;
+  	border: none;
+  	margin: 0px auto;
+  	margin-top: 50px;
+  	text-align: center;  
+  	padding: 30px;
+  }
+   
+  
+  /* 경고 메세지 */
+  .span_warning {
+   color: #ff0000;
+   font-weight: bold;
+   padding: 2px;
+   text-align: center;
+  }
+   
+  .input_basic {
+  	border-top: none;
+  	border-left: none;
+  	border-right: none;
+  	border-bottom: solid 1px #AAAAAA;
+  }
+    
+   .span_info {
+    color: #555555; 
+    font-weight: bold;
+    padding: 2px;
+     text-align: center;
+   }
+  
+	.span_alert {
+    color: #ffffff;
+    background-color: rgba(0, 0, 200, 0.6);
+    font-weight: bold;
+    padding: 2px;
+	}
+  
+  .div_grid {
+  	 margin-left : 240px;
+  	 width: 100%;
+  }
+  .div_grid_img {
+   background-color: #EEEEEE;
+   float: left;
+   position: relative;
+   left: 0%;
+   margin: 1%;
+   width: 15%;
+   height: 220px;
+  }
+  
+  .hr_dotted {
+  	width: 100%;
+  	clear: both;
+  	height: 1px; 
+  	border-top: dotted 1px #AAAAAA;
+  	border-right: none;
+  	border-bottom: none;
+  	border-left: none;
+  	margin: 10px auto;
+  }
+  
+  .div_grid_text {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    display: table;
+    padding: 2px;
+    border:solid 1px #DDDDDD;
+  }
+  
+  .div_grid_text_content {
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 20px;
+    text-align: center;
+  }
+  
+   /* 팝업 윈도우 */
+  .popup1 {
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    width: 36%;
+    height: 15%;
+    background-color: #dbdbdb;
+    opacity: 0.8;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .popup_content {
+   font-family: Malgun Gothic;
+   font-weight: bold;
+   color: #fa2b05;
+   
+  }
+  
+  .popup1 A:link{  /* 방문전 상태 */
+    text-decoration: none; /* 밑줄 삭제 */
+    color: #FFFFFF;
+  }
+  
+  .popup1 A:visited{  /* 방문후 상태 */
+    text-decoration: none; /* 밑줄 삭제 */
+    color: #FFFFFF;
+  }
+ 
+  .popup1 A:hover{  /* A 태그에 마우스가 올라간 상태 */
+    text-decoration: underline; /* 밑줄 출력 */
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+ 
+  .popup1 A:active{  /* A 태그를 클릭한 상태 */
+    text-decoration: underline; /* 밑줄 출력 */
+    color: #FFFFFF;
+  }
+  
+  .devdiary_list {
+  	width: 80%;
+  	height: 200px;
+  	border-bottom: 1px solid gray;
+  	margin-top: 10px;
+  	margin-left: 100px;
+
+  }
+  
+  .devdiary_info {
+  	width: 100%;
+  	margin-top: 20px;
+  }
+  
+	.title_main {
+		margin-top: 20px;
+	}
+	
+	.comment {
+  	width: 99%; 
+	  float: right; 
+	  margin-bottom: 20px;
+ 	}
+	.comment_reply {
+	 width: 99%; 
+	 float: right;  
+	 margin-bottom: 20px; 
+	 background-color: #e8f3ff;
+	}
+    
+    

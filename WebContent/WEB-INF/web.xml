@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>develop_v4jq</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>DBCPServlet</servlet-name>
+    <servlet-class>nation.web.tool.DBCPServlet</servlet-class>
+    <init-param>
+      <param-name>registerPool</param-name>
+      <param-value>develop_v4jq</param-value>
+    </init-param>
+    <init-param>
+      <param-name>jdbcDriver</param-name>
+      <param-value>org.gjt.mm.mysql.Driver</param-value>
+    </init-param>
+    <init-param>
+      <param-name>jdbcURL</param-name>
+      <param-value>jdbc:mysql://localhost:3306/javadb?useUnicode=true&amp;characterEncoding=euckr</param-value>
+    </init-param>
+    <init-param> 
+      <param-name>user</param-name>
+      <param-value>root</param-value>
+    </init-param>
+    <init-param>
+      <param-name>password</param-name>
+      <param-value>1234</param-value>
+    </init-param>
+    <init-param>
+      <param-name>maxActive</param-name>
+      <param-value>3</param-value>
+    </init-param>
+    <init-param>
+      <param-name>maxIdle</param-name>
+      <param-value>3</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>Download2</servlet-name>
+    <servlet-class>nation.web.tool.Download2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Download2</servlet-name>
+    <url-pattern>/download2</url-pattern>
+  </servlet-mapping>
+</web-app>

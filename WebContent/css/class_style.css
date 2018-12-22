@@ -1,0 +1,76 @@
+  /*
+  CSS version: 0.1
+  */  
+  /* 모든 태그에 적용 */
+  *{ 
+    font-family: Malgun Gothic; 
+    font-size: 26px;
+    margin: 0px;
+    padding: 0px;
+    color: #555555;
+  }
+  
+  .container {
+    margin: 5px;
+  }
+   
+  .content {
+    width: 80%;
+    margin: 0px auto;
+  }
+  
+  .bottom_menu {
+    margin: 20px auto;
+    text-align: center;
+    clear: both;             /* float 속성 해제 */
+  } 
+   
+  
+  .li_none {
+    list-style: none;        /* 블렛 기호 생략 */
+    margin: 10px 10px;   /* 위아래 좌우*/
+  }
+  
+  .legend_basic {
+    margin: 0px 30px;
+    border: none;
+    padding: 2px;
+  } 
+   
+  .title_box {
+    color: #FFFFFF;
+    width: 20%;
+    margin: 10px auto;
+    padding: 3px;
+    background-color: #6699ff;
+    border: solid 1px #555555;
+    text-align: center; 
+  }
+  
+  .table_basic {
+    border: solid 1px #AAAAAA;
+    margin: 10px auto;
+    width: 100%;
+    border-collapse: collapse;
+  } 
+  
+  .th_basic {
+    border: solid 1px #CCCCCC;
+    background-color: #efeeff 
+  }
+  
+  .td_basic {
+    border: solid 1px #CCCCCC;
+    background-color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center; 
+  }
+   
+  .td_left {
+    border: solid 1px #CCCCCC;
+    background-color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left; 
+  }   
